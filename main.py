@@ -4,9 +4,9 @@ from telegram.ui import InlineKeyboardButton, InlineKeyboardMarkup
 from pymongo import MongoClient
 
 # Initialize bot and MongoDB
-bot = Bot(token='YOUR_TELEGRAM_BOT_TOKEN')
-mongo_client = MongoClient('mongodb://localhost:27017/')
-db = mongo_client['subscription_bot']
+bot = Bot(token='6622094578:AAExgt9BOiWki0aix5xW04y2xSVBvZtjPs8')
+mongo_client = MongoClient('mongodb+srv://Khrish:98982khrishisveryop07@cluster1.hh7bbcz.mongodb.net/?retryWrites=true&w=majority')
+db = mongo_client['Membership_Info_Bot']
 
 # ... More imports and setup ...
 
